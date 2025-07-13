@@ -1,7 +1,6 @@
 package com.userManagement.service;
 
-import com.userManagement.entity.RegisterRequest;
-import com.userManagement.entity.Role;
+import com.userManagement.dto.Role;
 import com.userManagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;

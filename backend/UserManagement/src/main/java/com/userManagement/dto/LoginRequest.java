@@ -1,10 +1,9 @@
-package com.userManagement.entity;
+package com.userManagement.dto;
 
 import lombok.Data;
-import org.springframework.web.bind.annotation.RestController;
 
 @Data
-public class RegisterRequest {
+public class LoginRequest {
     private  String username;
     private  String password;
 

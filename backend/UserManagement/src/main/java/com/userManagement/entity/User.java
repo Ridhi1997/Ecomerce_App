@@ -1,9 +1,8 @@
 package com.userManagement.entity;
 
+import com.userManagement.dto.Role;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 
 @Data
@@ -18,7 +17,7 @@ public class User {
     private  String password;
 
     @Enumerated(EnumType.STRING)
-   private  Role roles;
+   private Role roles;
 
     public String getUsername() {
         return username;

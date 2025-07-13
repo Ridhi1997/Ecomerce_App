@@ -1,5 +1,9 @@
 package com.userManagement.service;
 
+import com.userManagement.dto.CustomUserDetails;
+import com.userManagement.dto.LoginRequest;
+import com.userManagement.dto.RegisterRequest;
+import com.userManagement.dto.Role;
 import com.userManagement.entity.*;
 import com.userManagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,4 +58,6 @@ public class UserService {
         // Generate JWT Token using the CustomUserDetails object
         return jwtService.generateToken(userDetails);
     }
+
+
 }

@@ -1,6 +1,5 @@
 package com.userManagement.service;
 
-import com.userManagement.entity.CustomUserDetails;
 import com.userManagement.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

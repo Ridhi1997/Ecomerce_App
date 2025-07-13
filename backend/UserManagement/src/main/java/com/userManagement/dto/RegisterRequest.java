@@ -1,9 +1,9 @@
-package com.userManagement.entity;
+package com.userManagement.dto;
 
 import lombok.Data;
 
 @Data
-public class LoginRequest {
+public class RegisterRequest {
     private  String username;
     private  String password;
 
